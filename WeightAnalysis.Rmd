@@ -1,6 +1,9 @@
 Weight Analysis Report
 ======================================
 
+This is a line added to test the version control system!
+
+
 ```{r}
 
 load("~/Documents/Personal/Weight Analysis/weight.RData")

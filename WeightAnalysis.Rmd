@@ -3,7 +3,7 @@ Weight Analysis Report
 
 This is a line added to test the version control system!
 
-
+## Here is a graph
 ```{r}
 
 load("~/Documents/Personal/Weight Analysis/weight.RData")
@@ -16,3 +16,5 @@ ggplot(weight, aes(x = Date, y = Mark)) +
     geom_smooth(colour='darkred', size=2, se=FALSE) +
     theme_bw()
 ```
+
+It is not the greatest graph but an OK example!

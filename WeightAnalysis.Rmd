@@ -1,0 +1,15 @@
+Weight Analysis Report
+======================================
+
+```{r}
+
+load("~/Documents/Personal/Weight Analysis/weight.RData")
+require(ggplot2)
+ggplot(weight, aes(x = Date, y = Mark)) +
+    geom_path(colour='pink') +
+    xlab('Date') +
+    ylab('My Weight [Kg]') +
+    ggtitle('Mark\'s Weight') +
+    geom_smooth(colour='darkred', size=2, se=FALSE) +
+    theme_bw()
+```

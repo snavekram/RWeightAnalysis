@@ -3,11 +3,14 @@ Weight Analysis Report
 
 This is a line added to test the version control system!
 
-## Here is a graph
+
 ```{r}
 
 load("~/Documents/Personal/Weight Analysis/weight.RData")
 require(ggplot2)
+```
+## Weight variation with time
+```{r}
 ggplot(weight, aes(x = Date, y = Mark)) +
     geom_path(colour='pink') +
     xlab('Date') +
